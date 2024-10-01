@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 95vw;
+}
+
+.imagemcontainer {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.coluna {
+    padding: 20px;
+}
+
+  header { 
+      text-align: center;
+      padding: 20px;
+  }
+
+  .imagensheader { 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 80px; 
+    margin-bottom: 50px; 
+  }
+
+  .logoif {
+    max-width: 25vw; 
+    height: auto;
+   }
+
+   .bannerfice {
+    
+    max-width: 25vw; 
+    height: auto;
+   }
+
+   h1 {
+       font-size: 27px;
+    }
